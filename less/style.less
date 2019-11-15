@@ -1,0 +1,81 @@
+// Width variables
+@width0: 40px;
+@width2: 85%;
+
+// Height variables
+@height0: 40px;
+@height2: 25%;
+
+.nav{
+  .alignNavLinks
+  {
+    padding-top:10px;
+  }
+}
+.container{
+  .titre{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .btnAddArticle {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 10%;
+  }
+  .writeEditArticle{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 25px;
+
+    h2{
+      padding-bottom: 35px;
+      padding-top: 10px;
+    }
+    form a{
+      color: #000;
+      float: right;
+    }
+  }
+  #newscontainer
+  {
+    .card {
+      .overlay img {
+        width: 100%;
+      }
+      .overlay{
+        height: 200px;
+      }
+      .card-block{
+        .card-text{
+          overflow-wrap: break-word;
+        }
+      }
+    }
+    margin-top: 100px;
+
+    .hided{
+      visibility: hidden;
+      height: 0;
+    }
+    .closeButton{
+      position: absolute;
+      margin:7px;
+      top: 0;
+      right:0;
+      z-index: 10;
+      cursor: pointer;
+    }
+  }
+}
+.text-black{
+  li a{
+    color: #000;
+  }
+}
+.toggle.android { border-radius: 0px;}
+.toggle.android .toggle-handle { border-radius: 0px; }
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+.toggle.ios .toggle-handle { border-radius: 20px; }
